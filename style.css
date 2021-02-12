@@ -18,10 +18,10 @@ body {
     align-items: center;
 }
 
-.container {
+/* .container {
     max-width: 800px;
     margin: 30px auto;
-}
+} */
 
 h1, h2, h3, h4, h5, h6{
     letter-spacing: 1px;
@@ -78,10 +78,11 @@ li {
 
 .projects {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.project-cart {
+
+.project-card {
     background-color: white;
     max-width: 350px;
     border-radius: 10px;
